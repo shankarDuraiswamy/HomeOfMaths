@@ -1,0 +1,273 @@
+body{
+    height:130vh;
+    background: url(https://i.pinimg.com/originals/1d/d9/46/1dd946e58a802b28eebbe56edc47a6b7.jpg);
+    background-size:cover;
+    background-position:center;    
+}
+.rocket
+{
+    opacity:0.4;
+}
+.elephant img{
+    width:50px;
+    animation:elephant 20s linear infinite;
+}
+.elephant{
+    width: 100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position: absolute;
+    bottom: -30%;
+    left:-150px;
+}
+@keyframes elephant{
+    0%{
+        transform: translateX(0);
+        opacity:0;
+    }
+    50% {
+        opacity:1;
+    }
+    70% {
+        opacity:1;
+    }
+    100% {
+        transform: translateX(140vh);
+        opacity:0;
+    }
+    
+}
+.elephant img:nth-child(1){
+    animation-delay:5s;
+    width: 80px;
+}
+.elephant img:nth-child(2){
+    animation-delay:3s;
+    width: 120px;
+}
+.birds img{
+    width:50px;
+    animation:birds 10s linear infinite;
+}
+.birds{
+    width: 100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    position: absolute;
+    top: 10%;
+    left:-130px;
+    animation-name:birds;
+    animation-duration:40s;
+    animation-delay:2s;
+    animation-iteration-count:10;
+}
+@keyframes birds{
+    0%{
+        left:1000px;
+        top:200px;
+        opacity:0;
+    }
+    30% {
+        left:160px;
+        top:60px;
+        opacity:2;
+    }
+    65% {
+        left:180px;
+        top:370px;
+        opacity:2;
+    }
+    100% {
+        left:0px;
+        top:0px;
+        opacity:0;
+    }
+    
+}
+.birds img:nth-child(1){
+    animation-delay:5s;
+    width: 80px;
+}
+.box_1
+{
+    background:rgba(0, 0, 0, 0.272);
+    width: 36%;
+    height:93%;
+    position:absolute;
+    top:5%;
+    left:5%;
+    box-shadow: 0px  20px 55px  rgba(0,0,0,3);
+}
+.box_2
+{
+    background:rgba(0, 0, 0, 0.272);
+    width: 36%;
+    height:93%;
+    position:absolute;
+    top:5%;
+    right:5%;
+    box-shadow: 0px  20px 55px  rgba(0,0,0,3);
+}
+.box_scroll
+{
+    width:102%;
+    height:102%;
+    overflow:hidden;
+    overflow-y:scroll;
+    overflow-x:scroll;
+}
+::-webkit-scrollbar
+{
+    height:1.3em;
+}
+::-webkit-scrollbar-track
+{
+    background:black;
+    border-radius:100vw;
+    margin-block: .5rem;
+}
+::-webkit-scrollbar-thumb
+{
+    background:linear-gradient(pink,rgba(255, 255, 255, 0.813),rgba(0, 157, 255, 0.682));
+    border-radius:100vw;
+    margin-block: .3rem;
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background:white;
+}
+.center_font
+{
+    font-size:45px;
+    color:rgba(105, 186, 244, 0.486);
+    text-align:center;
+    font-family: 'Berkshire Swash', cursive;
+    position: absolute;
+    top:2%;
+    left:42%;
+}
+.box_object i
+{
+    font-size:50px;
+    color:rgba(255, 255, 255, 0.837);
+    position: absolute;
+    right:10%;
+}
+.first input[type=text]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 55px;
+    color:whitesmoke;
+    font-size:30px;
+    font-family:'Berkshire Swash', cursive;
+}
+.first input[type=reset]{
+    height: 40px;
+    color:whitesmoke;
+    font-size:25px;
+    font-family:'Berkshire Swash', cursive;
+    background:rgba(11, 226, 68, 0.507);
+    cursor: pointer;
+    border-radius:25px;
+    border:none;
+    outline:none;
+    position: absolute;
+    left:40%;
+    top:15%;
+}
+.second input[type=text]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 55px;
+    color:whitesmoke;
+    font-size:30px;
+    font-family:'Berkshire Swash', cursive;
+    position: absolute;
+    top:28%;
+}
+.second input[type=reset]{
+    height: 40px;
+    color:whitesmoke;
+    font-size:25px;
+    font-family:'Berkshire Swash', cursive;
+    background:rgba(11, 226, 68, 0.507);
+    cursor: pointer;
+    border-radius:25px;
+    border:none;
+    outline:none;
+    position: absolute;
+    left:40%;
+    top:43%;
+}
+.second input[type=button]{
+    height: 40px;
+    color:whitesmoke;
+    font-size:25px;
+    font-family:'Berkshire Swash', cursive;
+    background:rgba(11, 226, 68, 0.507);
+    cursor: pointer;
+    border-radius:25px;
+    border:none;
+    outline:none;
+    position: absolute;
+    left:38%;
+    top:63%;
+}
+.box_object2 p
+{
+    font-size:30px;
+    color:rgba(0, 0, 0, 0.767);
+    text-align:center;
+    font-family: 'Berkshire Swash', cursive;
+    position: absolute;
+    top:7%;
+    left:43%;
+}
+.box_object2 input[type=text]
+{
+    border:none;
+    border-bottom:1px solid black;
+    background:transparent;
+    outline:none;
+    height: 55px;
+    color:rgba(255, 255, 255, 0.904);
+    font-size:30px;
+    font-family:'Berkshire Swash', cursive;
+    position: absolute;
+    top:17%;
+}
+.third input[type=text]
+{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 55px;
+    color:whitesmoke;
+    font-size:30px;
+    font-family:'Berkshire Swash', cursive;
+    position: absolute;
+    top:58%;
+}
+.third input[type=reset]{
+    height: 40px;
+    color:whitesmoke;
+    font-size:25px;
+    font-family:'Berkshire Swash', cursive;
+    background:rgba(11, 226, 68, 0.507);
+    cursor: pointer;
+    border-radius:25px;
+    border:none;
+    outline:none;
+    position: absolute;
+    left:40%;
+    top:70%;
+}

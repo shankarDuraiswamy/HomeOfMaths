@@ -1,0 +1,94 @@
+body{
+    margin:0;
+    padding:0;
+    overflow:scroll;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    scroll-behavior:smooth;
+}
+nav{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100px;
+    padding: 10px 90px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.2);
+
+}
+
+
+nav .contact{
+    position:relative;
+    top: 125%;
+    left: 32%;
+    transform:translate3d(-50%,-50%);
+    width: 400px;
+    height: 848px;
+    padding: 50px 50px;
+    background:rgba(0,0,0,0.6);
+}
+nav .contact p{
+    color:rgba(255, 255, 255, 0.767);
+    font-size :30px;
+    font-family:serif;
+}
+
+
+.contact input{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.contact input[type=text],.contact input[type=tel],.contact input[type=email],.contact input[type=password]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 40px;
+    color:whitesmoke;
+    font-size:35px;
+    font-family: cursive;
+}
+
+.contact input[type=submit]{
+    height: 40px;
+    color:white;
+    font-size:35px;
+    font-family:'Times New Roman', Times, serif;
+    background:aqua;
+    cursor: pointer;
+    border-radius:25px;
+    border:none;
+    outline:none;
+    margin-top:15px;
+}
+.contact input[type =button]{
+    height:40px;
+    color:black;
+    font-size:30px;
+    font-family:cursive;
+    background:whitesmoke;
+    cursor: pointer;
+    border-radius:15px;
+    border:none;
+    outline:none;
+    margin-top:0px;
+}
+
+span{
+    position:absolute;
+    right: 38px;
+    top: 820px;
+    cursor:pointer;
+}
+
+
+section{
+    width: 100%;
+    height: 180vh;
+    background: url(https://wallpapercave.com/wp/1haGIht.jpg);
+    background-size:cover;
+    background-position:center;
+}
+

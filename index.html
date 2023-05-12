@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>HomeOfMaths</title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel ="register" href ="register.html">
+    <script src="thor.js"></script>
+    <meta name="viewport" content="width-device width,initial scale=1,maximum scale=1">
+</head>
+<body>
+    <nav>
+        <div class ="logo">HomeOfMaths</div>
+        <div class ="contact">
+            <a href="main_page.html">
+            <input type ="button" value ="Use temporary">
+            </a>
+            <h1 style="color:rgba(220, 220, 220, 0.726);font-family:serif;font-size:55px;text-align: center;">Login in</h1>
+            <form action="main_page.html" autocomplete="on">
+                <p>Phone Number</p>
+                <input type ="tel" placeholder="Enter a number" id ="number" required><br>
+                <p>Password</p>
+                <input type ="Password" placeholder="Enter a password" id ="password"  required maxlength="6" ><br>
+                <input type ="submit" value="login in" onclick="login()"><br><br>
+                <a href ="register.html">
+                <input type ="button" value ="Create a maths account" onclick ="register()">
+                </a>
+            </form>
+            <span>
+                <i class ="eye" aria-hidden="true" id ="eye" onclick="toggle()">
+                <img src="https://cdn-icons-png.flaticon.com/128/1445/1445284.png" height ="30px;" width="30px;">
+                </i>
+            </span>
+            </div>
+        </div>
+        <script>
+        </script>
+        
+        <ul>
+            <li><a href="register.html">Maths</a></li>
+            <li><a href="register.html">Analysis</a></li>
+            <li><a href="register.html">Graph</a></li>
+        </ul>
+    </nav>
+    <section></section>
+</body>
+    

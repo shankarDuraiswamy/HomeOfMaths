@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:200px;
+    padding: 10px 90px;
+    box-sizing:border-box;
+    background:rgba(0,0,0,0.2);  
+
+}
+nav .logo{
+    padding: 10px 50px;
+    height:85px;
+    float:left;
+    font-size:75px;
+    color:rgba(220, 220, 220, 0.726);
+    font-family:serif;
+}
+
+nav ul{
+    list-style:none;
+    float:right;
+    margin: 0%;
+    padding:0;
+    display:flex;
+    font-family:serif;
+}
+nav ul li a{
+    line-height:80px;
+    color:rgb(141, 128, 128);
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size :40px;   
+}
+nav ul li a:hover{
+    background:whitesmoke;
+    border-radius:6px;
+}
+nav .contact{
+    position:absolute;
+    top: 105%;
+    left: 33%;
+    transform:translate3d(-50%,-50%);
+    width: 500px;
+    height: 700px;
+    padding: 70px 70 px;
+    background:rgba(0,0,0,0.5);
+    background-size:cover;
+    background-position:center;
+}
+nav .contact p{
+    color:rgba(220, 220, 220, 0.726);
+    font-size :40px;
+    font-family:serif;
+}
+
+.contact input{
+    width:100%;
+    margin-bottom:20px;
+}
+
+.contact input[type=tel],.contact input[type =password]{
+    border:none;
+    border-bottom:1px solid #fff;
+    background:transparent;
+    outline:none;
+    height: 35px;
+    color:whitesmoke;
+    font-size:30px;
+    font-family: cursive;
+}
+.contact input[type =button]{
+    height:40px;
+    color:rgb(10, 3, 3);
+    font-size:20px;
+    font-family:cursive;
+    background:whitesmoke;
+    cursor: pointer;
+    border-radius:25px;
+    border:none;
+    outline:none;
+    margin-top:15px;
+}
+.contact input[type=submit]{
+    height: 40px;
+    color:white;
+    font-size:35px;
+    font-family:'Times New Roman', Times, serif;
+    background:aqua;
+    cursor: pointer;
+    border-radius:25px;
+    border:none;
+    outline:none;
+    margin-top:15px;
+}
+span{
+    position:absolute;
+    right: 28px;
+    top: 502px;
+    cursor:pointer;
+}
+
+section{
+    width: 100%;
+    height:180vh;
+    background: url(https://wallpaperaccess.com/full/931304.jpg);
+}
+
+

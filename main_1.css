@@ -1,0 +1,550 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background:black;
+}
+.add
+{
+    position:absolute;
+    top: 1150px;
+    left: 170px;
+    width: 300px;
+    height:300px;
+    transform-style:preserve-3d;
+    animation: animate 4s linear infinite;
+    cursor: pointer;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.add div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transform: rotateX('-30deg');
+}
+.add_font
+{
+    font-size:55px;
+    color:rgba(104, 243, 104, 0.392);
+    position:absolute;
+    top:990px;
+    left: 250px;
+    font-family: 'Berkshire Swash', cursive;
+    cursor: pointer;
+    
+}
+.add i
+{
+    font-size:50px;
+    color:rgba(42, 231, 42, 0.335);
+    position:absolute;
+    top:-40px;
+    left:105px;
+    transform:rotateX(50deg);    
+}
+.add div span
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,rgb(6, 207, 6));
+    transform:rotateY(calc(90deg * var(--i))) translateZ(150px);
+}
+.top
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:300px;
+    background:rgba(27, 25, 25, 0.827);
+    transform:rotateX(90deg) translateZ(150px);
+}
+.top::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height: 300px;
+    background:rgba(8, 212, 8, 0.974);
+    transform:translateZ(-380px);
+    filter:blur(20px);
+    box-shadow:0 0 120px rgba(0,255,0,0.4),
+    0 0 200px rgba(0,255,0,0.4),
+    0 0 300px rgba(0,255,0,0.7),
+    0 0 400px rgba(0,255,0,0.8),
+    0 0 500px rgba(0,255,0.1);
+}
+.sub
+{
+    position:absolute;
+    top: 1150px;
+    left: 70%;
+    width: 300px;
+    height:300px;
+    transform-style:preserve-3d;
+    animation: roll 4s linear infinite;
+    cursor: pointer;
+}
+@keyframes roll
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.sub div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transform: rotateX('-30deg');
+}
+.sub_font
+{
+    font-size:55px;
+    color:rgba(255, 192, 203, 0.622);
+    position:absolute;
+    top:990px;
+    left: 1020px;
+    font-family: 'Berkshire Swash', cursive;
+    cursor: pointer;
+}
+.sub i
+{
+    font-size:50px;
+    color:rgb(248, 160, 174);
+    position:absolute;
+    top:-40px;
+    left:105px;
+    transform:rotateX(50deg);    
+}
+.sub div span
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,rgb(244, 70, 99));
+    transform:rotateY(calc(90deg * var(--i))) translateZ(150px);
+}
+.top1
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:300px;
+    background:rgba(27, 25, 25, 0.827);
+    transform:rotateX(90deg) translateZ(150px);
+}
+.top1::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height: 300px;
+    background:rgb(237, 54, 84);
+    transform:translateZ(-380px);
+    filter:blur(20px);
+    box-shadow:0 0 120px rgb(238, 64, 93),
+    0 0 200px rgba(238, 65, 93, 0.959),
+    0 0 300px rgba(238, 65, 93, 0.83),
+    0 0 400px rgb(238, 65, 93,0.73),
+    0 0 500px rgb(238, 65, 93,0.63);
+}
+.multiply
+{
+    position:absolute;
+    top: 1850px;
+    left: 170px;
+    width: 300px;
+    height:300px;
+    transform-style:preserve-3d;
+    animation: animate 4s linear infinite;
+    cursor: pointer;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.multiply div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transform: rotateX('-30deg');
+}
+.multiply_font
+{
+    font-size:55px;
+    color:rgba(135, 207, 235, 0.874);
+    position:absolute;
+    top:1690px;
+    left: 185px;
+    font-family: 'Berkshire Swash', cursive;
+    cursor: pointer;
+    
+}
+.multiply i
+{
+    font-size:50px;
+    color:rgba(135, 207, 235, 0.874);
+    position:absolute;
+    top:-40px;
+    left:105px;
+    transform:rotateX(50deg);    
+}
+.multiply div span
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,rgb(45, 184, 239));
+    transform:rotateY(calc(90deg * var(--i))) translateZ(150px);
+}
+.top2
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:300px;
+    background:rgba(27, 25, 25, 0.827);
+    transform:rotateX(90deg) translateZ(150px);
+}
+.top2::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height: 300px;
+    background:rgb(0, 171, 239);
+    transform:translateZ(-380px);
+    filter:blur(20px);
+    box-shadow:0 0 120px rgb(0, 171, 239),
+    0 0 200px rgb(0, 171, 239,0.4),
+    0 0 300px rgb(0, 171, 239,0.6),
+    0 0 400px rgb(0, 171, 239,0.8),
+    0 0 500px rgb(0, 171, 239,1);
+}
+.divide
+{
+    position:absolute;
+    top: 1850px;
+    left: 70%;
+    width: 300px;
+    height:300px;
+    transform-style:preserve-3d;
+    animation: animate 4s linear infinite;
+    cursor: pointer;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.divide div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transform: rotateX('-30deg');
+}
+.divide_font
+{
+    font-size:55px;
+    color:rgba(241, 74, 74, 0.649);
+    position:absolute;
+    top:1690px;
+    left: 1020px;
+    font-family: 'Berkshire Swash', cursive;
+    cursor: pointer;
+    
+}
+.divide i
+{
+    font-size:50px;
+    color:rgba(241, 74, 74, 0.649);
+    position:absolute;
+    top:-40px;
+    left:105px;
+    transform:rotateX(50deg);    
+}
+.divide div span
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,rgb(234, 33, 33));
+    transform:rotateY(calc(90deg * var(--i))) translateZ(150px);
+}
+.top3
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:300px;
+    background:rgba(27, 25, 25, 0.827);
+    transform:rotateX(90deg) translateZ(150px);
+}
+.top3::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height: 300px;
+    background:rgb(240, 32, 32);
+    transform:translateZ(-380px);
+    filter:blur(20px);
+    box-shadow:0 0 120px rgb(234, 33, 33),
+    0 0 200px rgb(234, 33, 33,0.4),
+    0 0 300px rgb(234, 33, 33,0.6),
+    0 0 400px rgb(234, 33, 33,0.8),
+    0 0 500px rgb(234, 33, 33,1);
+}
+.remainder
+{
+    position:absolute;
+    top: 2490px;
+    left: 170px;
+    width: 300px;
+    height:300px;
+    transform-style:preserve-3d;
+    animation: animate 4s linear infinite;
+    cursor: pointer;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.remainder div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transform: rotateX('-30deg');
+}
+.remainder_font
+{
+    font-size:55px;
+    color:rgba(246, 171, 32, 0.85);
+    position:absolute;
+    top: 2340px;
+    left: 185px;
+    font-family: 'Berkshire Swash', cursive;
+    cursor: pointer;
+}
+.remainder i
+{
+    font-size:50px;
+    color:rgba(246, 171, 32, 0.741);
+    position:absolute;
+    top:-40px;
+    left:105px;
+    transform:rotateX(50deg);    
+}
+.remainder div span
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,rgb(220, 144, 4));
+    transform:rotateY(calc(90deg * var(--i))) translateZ(150px);
+}
+.top4
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:300px;
+    background:rgba(27, 25, 25, 0.827);
+    transform:rotateX(90deg) translateZ(150px);
+}
+.top4::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height: 300px;
+    background:rgb(249, 163, 3);
+    transform:translateZ(-380px);
+    filter:blur(20px);
+    box-shadow:0 0 120px rgb(220, 144, 4),
+    0 0 200px rgb(220, 144, 4,0.4),
+    0 0 300px rgb(220, 144, 4,0.6),
+    0 0 400px rgb(220, 144, 4,0.8),
+    0 0 500px rgb(220, 144, 4,1);
+}
+.percentage
+{
+    position:absolute;
+    top: 2490px;
+    left: 70%;
+    width: 300px;
+    height:300px;
+    transform-style:preserve-3d;
+    animation: animate 4s linear infinite;
+    cursor: pointer;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotateX(-30deg) rotateY(0deg);
+    }
+    100%
+    {
+        transform: rotateX(-30deg) rotateY(360deg);
+    }
+}
+.percentage div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    transform-style: preserve-3d;
+    transform: rotateX('-30deg');
+}
+.percentage_font
+{
+    font-size:55px;
+    color:rgb(173, 5, 173);
+    position:absolute;
+    top:2340px;
+    left:990px;
+    font-family: 'Berkshire Swash', cursive;
+    cursor: pointer;
+}
+.percentage i
+{
+    font-size:55px;
+    color:rgb(173, 5, 173);
+    position:absolute;
+    top:-40px;
+    left:105px;
+    transform:rotateX(50deg);    
+}
+.percentage div span
+{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(black,rgb(94, 2, 94));
+    transform:rotateY(calc(90deg * var(--i))) translateZ(150px);
+}
+.top5
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height:300px;
+    background:rgba(27, 25, 25, 0.827);
+    transform:rotateX(90deg) translateZ(150px);
+}
+.top5::before
+{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    width:300px;
+    height: 300px;
+    background:rgb(78, 1, 78);
+    transform:translateZ(-380px);
+    filter:blur(20px);
+    box-shadow:0 0 120px rgb(94, 2, 94),
+    0 0 200px rgb(94, 2, 94,0.4),
+    0 0 300px rgb(94, 2, 94,0.6),
+    0 0 400px rgb(94, 2, 94,0.8),
+    0 0 500px rgb(94, 2, 94,1);
+}
+.Maths__center
+{
+    font-size:90px;
+    position:absolute;
+    color:rgba(255, 255, 255, 0.713);
+    font-family: 'Berkshire Swash', cursive;
+    left:560px;
+    top: 890px;
+}
